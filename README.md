@@ -2,10 +2,14 @@ Slackbot
 ========
 Slackbot wrapper for [slack.com](https://slack.com)
 
+- https://github.com/shokai/node-slackbot
+
 
 ## Install
 
     % npm install slackbot
+
+## Get Token
 
 add slackbot integration and get `token`
 
@@ -27,6 +31,8 @@ slackbot.send("#general", "hello!!", function(err, res, body) {
 
 
 ## Sample
+
+use [sample.js](https://github.com/shokai/node-slackbot/blob/master/sample.js)
 
     % SLACK_TEAM=teamname SLACK_TOKEN=a1b2cdef345 node sample.js "hello world"
 

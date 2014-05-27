@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "description": "slackbot wrapper for slack.com",
   "main": "lib/slackbot.js",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [
     "slack",
     "bot"
@@ -26,5 +25,13 @@
   },
   "dependencies": {
     "request": "*"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shokai/node-slackbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shokai/node-slackbot/issues"
+  },
+  "homepage": "https://github.com/shokai/node-slackbot"
 }
