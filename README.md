@@ -3,6 +3,7 @@ Slackbot
 Slackbot wrapper for [slack.com](https://slack.com)
 
 - https://github.com/shokai/node-slackbot
+- https://www.npmjs.org/package/slackbot
 
 
 ## Install
