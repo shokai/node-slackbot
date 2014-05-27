@@ -4,7 +4,6 @@
   "description": "slackbot wrapper for slack.com",
   "main": "lib/slackbot.js",
   "scripts": {
-    "test": "./node_modules/grunt-cli/bin/grunt test"
   },
   "keywords": [
     "slack",
