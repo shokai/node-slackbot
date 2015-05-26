@@ -7,7 +7,7 @@ var msg = process.argv[2] || "hello!!";
 
 slackbot.send("#general", msg, function(err, res, body) {
   if(err){
-    consle.error(err);
+    console.error(err);
     return;
   }
   console.log(body);
