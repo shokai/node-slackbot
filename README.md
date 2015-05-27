@@ -38,6 +38,14 @@ use [sample.js](https://github.com/shokai/node-slackbot/blob/master/sample.js)
     % SLACK_TEAM=teamname SLACK_TOKEN=a1b2cdef345 node sample.js "hello world"
 
 
+## Develop
+
+    % npm install
+
+    % npm test
+    # or
+    % npm run watch
+
 ## Contributing
 
 1. Fork it

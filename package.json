@@ -3,7 +3,11 @@
   "version": "0.0.1",
   "description": "slackbot wrapper for slack.com",
   "main": "lib/slackbot.js",
-  "scripts": {},
+  "scripts": {
+    "test": "grunt test",
+    "build": "grunt build",
+    "watch": "grunt"
+  },
   "keywords": [
     "slack",
     "bot"
@@ -20,8 +24,8 @@
     "grunt-simple-mocha": "*",
     "grunt-notify": "*",
     "grunt-contrib-coffee": "*",
-    "grunt-coffeelint": "git+https://github.com/geta6/grunt-coffeelint",
-    "grunt-contrib-watch": "git+https://github.com/gruntjs/grunt-contrib-watch"
+    "grunt-coffeelint": "*",
+    "grunt-contrib-watch": "*"
   },
   "dependencies": {
     "request": "*"
